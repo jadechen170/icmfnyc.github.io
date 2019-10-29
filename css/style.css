@@ -453,6 +453,58 @@ nav ul li a {
   max-width: 100%;
 }
 
+
+/*-----------------------------------------------------------------------------------*/
+/*  Artists
+/*-----------------------------------------------------------------------------------*/
+
+#artist {
+  background-color: #fff;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+#artist .container-fluid {
+  max-width: 1920px;
+}
+
+#artist .container-fluid .artist-box {
+  position: relative;
+  display: block;
+}
+
+#artist .container-fluid .artist-box .artist-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgb(184, 160, 126, 0.9);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+
+#artist .container-fluid .artist-box .artist-box-caption .subtext {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+#artist .container-fluid .artist-box .artist-box-caption .name {
+  font-size: 1.2rem;
+}
+
+#artist .container-fluid .artist-box:hover .artist-box-caption {
+  opacity: 1;
+}
+
+
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
 /*-----------------------------------------------------------------------------------*/
