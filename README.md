@@ -1,3 +1,3 @@
 Website for the Intercollegiate Chamber Music Festival.
 
-View here : www.icmfnyc.github.io/ 
+View here : https://icmfnyc.github.io/
